@@ -1,0 +1,6 @@
+
+<app-child [msgParent]="Parent"></app-child>
+
+<app-child (msgChild)="Child=$event"></app-child>
+
+<h1>Received Data is : {{Child}}</h1>
